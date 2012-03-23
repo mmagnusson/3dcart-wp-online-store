@@ -28,8 +28,9 @@ Plugin Features:
 * Products from a Specific Category 
 
 
-More About  3dcart for WordPress, click below link 
+[http://www.youtube.com/watch?feature=player_embedded&v=O-vtCU7xEuo]
 
+More About  3dcart for WordPress, click below 
 http://www.3dcart.com
 
 
