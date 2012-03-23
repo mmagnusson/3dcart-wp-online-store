@@ -20,14 +20,13 @@ This wordpress plugin is created for merchants who want to sell products from th
 
 Plugin Features:
 
+* Adds any number of dynamic widget in your blog's sidebar or widget ready areas.
+* Online Store Home Special Products
+* Products On Sale
+* Products from a Specific Category 
 
-1. Adds any number of dynamic widget in your blog's sidebar or widget ready areas.
-2 Online Store Home Special Products
-3 Products On Sale
-4 Products from a Specific Category
 
-
-More About  3dcart for WordPress 
+More About  3dcart for WordPress, click below link 
 
 http://www.3dcart.com
 
