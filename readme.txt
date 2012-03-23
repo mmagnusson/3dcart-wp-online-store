@@ -10,13 +10,15 @@ Requires at least: 2.8
 Tested up to: 3.2
 Stable tag: 1
 
-This wordpress plugin is created for merchants who want to sell products from their 3dcart Online Store within their Wordpress blog (released under GNU/GPL by 3dcart).
+This wordpress plugin is created for merchants who want to sell products from their 3dcart Online Store within their Wordpress blog .
 
-3dcart's wordpress online store plugin allows you to integrate 3dcart into an existing Wordpress website. 
 
 
 == Description ==
 
+3dcart's wordpress online store plugin allows you to integrate 3dcart into an existing Wordpress website. 
+
+(released under GNU/GPL by 3dcart)
 
 Plugin Features:
 
