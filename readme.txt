@@ -22,18 +22,16 @@ Turn your Wordpress Blog in an Online Store and start selling online with the 3d
 
 3dcart is an all-in-one ecommerce solution that integrates seamlessly with WordPress.
 
-
-VISA PCI Certified Shopping Cart Solution
-24x7 Premium Technical Support
-No Transaction Fees
-Sell Products, Services and Digital Downloads
-Run Daily Deals and Group Deals
-Automatic Email Notifications, Abandoned Cart Emails, Autoresponders and more.
-Subscribe and Save with 3dcart Autoship
-Ship via UPS, USP, Fedex, Canada Post and AuPost.
-Over 160 Payment Gateways supported.
-Facebook Store included.
-Mobile Store included.
+* VISA PCI Certified Shopping Cart Solution
+* 24x7 Premium Technical Support
+* No Transaction Fees
+* Sell Products, Services and Digital Downloads
+* Automatic Email Notifications, Abandoned Cart Emails, Autoresponders and more.
+* Subscribe and Save with 3dcart Autoship
+* Ship via UPS, USP, Fedex, Canada Post and AuPost.
+* Over 160 Payment Gateways supported.
+* Facebook Store included.
+* Mobile Store included.
 
 Plugin Features:
 
