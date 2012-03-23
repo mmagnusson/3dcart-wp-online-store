@@ -21,7 +21,7 @@ This wordpress plugin is created for merchants who want to sell products from th
 Plugin Features:
 
 
-1. Adds any number of dynamic widget in your blog's sidebar or widget ready areas. 
+1. Adds any number of dynamic widget in your blog's sidebar or widget ready areas.
 2 Online Store Home Special Products
 3 Products On Sale
 4 Products from a Specific Category
