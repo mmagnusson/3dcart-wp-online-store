@@ -64,8 +64,7 @@ Please visit the [3dcart plugin page]
 for Installation guide and Live Demo.
 
 == Screenshots ==
-
-1. Wordpress Admin
+1. Admin Side Screenshot
 2. Sample Front-end 
 
 Please visit the [3dcart plugin page] 
