@@ -28,7 +28,7 @@ Plugin Features:
 * Products from a Specific Category 
 
 
-[http://www.youtube.com/watch?feature=player_embedded&v=O-vtCU7xEuo]
+[youtube http://www.youtube.com/watch?feature=player_embedded&v=O-vtCU7xEuo]
 
 More About  3dcart for WordPress, click below 
 http://www.3dcart.com
@@ -50,6 +50,9 @@ for Installation guide and Live Demo.
 
 == Screenshots ==
 
-Please visit the [3dcart plugin page]
+1. Wordpress Admin
+2. Sample Front-end 
+
+Please visit the [3dcart plugin page] 
 
 (http://www.3dcart.com/wordpress-plugin/screenshots.html) for Installation guide and Live Demo.
