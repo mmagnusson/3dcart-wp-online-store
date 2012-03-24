@@ -43,8 +43,7 @@ Plugin Features:
 
 [youtube http://www.youtube.com/watch?feature=player_embedded&v=O-vtCU7xEuo]
 
-More About  3dcart for WordPress, click below 
-http://www.3dcart.com
+More About  3dcart for WordPress, click below http://www.3dcart.com
 
 
 == Installation ==
