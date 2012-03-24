@@ -1,7 +1,7 @@
 <?php
 /*
   Plugin Name: 3dcart Online Store
-  Plugin URI: http://www.3dcart.com
+  Plugin URI: http://wordpress.org/extend/plugins/3dcart-wp-online-store/
   Description: This is an official plugin of 3DCart, to fetch products from your shop and display it in widget.
   Author: 3dcart
   Version: V.1.0

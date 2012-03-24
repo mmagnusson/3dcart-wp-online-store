@@ -48,11 +48,9 @@ http://www.3dcart.com
 
 
 == Installation ==
-
-INSTRUCTIONS
 1.     Download the plugin.
-1.     Upload 3dcart-wp-online-store directory to the /wp-content/plugins/ directory
-1.     Activate the plugin through the 'Plugins' menu in WordPress
+1.     Upload 3dcart-wp-online-store directory to the /wp-content/plugins/ directory.
+1.     Activate the plugin through the 'Plugins' menu in WordPress.
 1.     Setup the plugin on the 'Appearance > Widgets' page.
 
 For complete instructions visit,
@@ -81,4 +79,4 @@ for Installation guide and Live Demo.
 
 == Screenshots ==
 1. Admin Side Screenshot
-2. Sample Front-end 
+2. Sample Front-end
