@@ -1,4 +1,4 @@
-﻿=== 3dcart: WordPress Online Store ===
+=== 3dcart: WordPress Online Store ===
 Contributors: 3dcart
 Donate link: http://www.3dcart.com/
 Tags: e-commerce, ecommerce, online store, shopping 
@@ -49,13 +49,31 @@ http://www.3dcart.com
 
 == Installation ==
 
+INSTRUCTIONS
+1.     Download the plugin.
+1.     Upload 3dcart-wp-online-store directory to the /wp-content/plugins/ directory
+1.     Activate the plugin through the 'Plugins' menu in WordPress
+1.     Setup the plugin on the 'Appearance > Widgets' page.
+
+For complete instructions visit,
+https://support.3dcart.com/3dcart/Knowledgebase/Article/View/483/0/how-do-i-install-the-3dcart-wordpress-plugin
+ 
 Please visit the [3dcart plugin page]
 
 (http://www.3dcart.com/wordpress-plugin) for Installation guide and Live Demo.
 
 == Frequently Asked Questions ==
 
-Please visit the [3dcart plugin page]
+= Do I need a 3dcart account to use the Wordpress Plugin? =
+ Yes, you need an active 3dcart account or a Free Trial.
+= How do I sign up for 3dcart? =
+ Visit, http://www.3dcart.com/freetrial.htm
+
+* For questions about the 3dcart solution,
+* 3dcart Knowledge Base: http://support.3dcart.com
+* For 24x7 Support Contact,
+* Email: support@3dcart.com
+* Phone: 1-800-828-6650 
 
 (http://www.3dcart.com/wordpress-plugin/faq.html) 
 
@@ -64,7 +82,3 @@ for Installation guide and Live Demo.
 == Screenshots ==
 1. Admin Side Screenshot
 2. Sample Front-end 
-
-Please visit the [3dcart plugin page] 
-
-(http://www.3dcart.com/wordpress-plugin/screenshots.html) for Installation guide and Live Demo.
