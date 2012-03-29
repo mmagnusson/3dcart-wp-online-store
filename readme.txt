@@ -55,9 +55,6 @@ More About  3dcart for WordPress, click below http://www.3dcart.com
 For complete instructions visit,
 https://support.3dcart.com/3dcart/Knowledgebase/Article/View/483/0/how-do-i-install-the-3dcart-wordpress-plugin
  
-Please visit the [3dcart plugin page]
-
-(http://www.3dcart.com/wordpress-plugin) for Installation guide and Live Demo.
 
 == Frequently Asked Questions ==
 
@@ -72,7 +69,7 @@ Please visit the [3dcart plugin page]
 * Email: support@3dcart.com
 * Phone: 1-800-828-6650 
 
-(http://www.3dcart.com/wordpress-plugin/faq.html) 
+
 
 for Installation guide and Live Demo.
 
