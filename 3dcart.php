@@ -4,7 +4,7 @@
   Plugin URI: http://wordpress.org/extend/plugins/3dcart-wp-online-store/
   Description: This is an official plugin of 3DCart, to fetch products from your shop and display it in widget.
   Author: 3dcart
-  Version: V.1.1
+  Version: V.1.0
   Author URI: http://3dcart.com
  */
 $application_registered = "";
@@ -335,7 +335,7 @@ function wp3dcart_admin_warnings() {
       if (!get_option('wp3dcart_application_registered') && !$wpcom_api_key && !isset($_POST['submit'])) {
 
 	    function w3dcart_warning() {
-		  echo "<div id='wp3dcart-warning' class='updated fade'><p><strong>" . __('3dcart plugin is almost ready.') . "</strong> " . sprintf(__('You must <a href="%1$s"> register to use it </a>.'), "?page=3dcart/3dcart.php") . "</p></div>";
+		  echo "<div id='wp3dcart-warning' class='updated fade'><p><strong>" . __('3dcart plugin is almost ready.') . "</strong> " . sprintf(__('You must <a href="%1$s"> register to use it </a>.'), "?page=3dcart-wp-online-store/3dcart.php") . "</p></div>";
 	    }
 
 	    add_action('admin_notices', 'w3dcart_warning');
@@ -378,21 +378,24 @@ function wp3dcart_settings_page() {
 	    update_option("wp3dcart_store_url", $_POST['wp3dcart_store_url']);
 	    update_option("wp3dcart_user_email", $_POST['wp3dcart_user_email']);
 	    update_option("wp3dcart_user_phone", $_POST['wp3dcart_user_phone']);
-	    $url = "http://www.3dcart.com/wordpress-plugin/verify.asp?type=1";
+	    $url = "http://3dcart.com/wordpress-plugin/verify.asp?type=1";
 	    $url .= "&siteurl=" . $_POST['siteurl'];
-	    $url .= "&storeurl=" . $_POST['wp3dcart_store_url'];
-	    $url .= "&email=" . $_POST['wp3dcart_user_email'];
-	    $url .= "&phone=" . $_POST['wp3dcart_user_phone'];
+	    $url .= "&storeurl=" . urldecode($_POST['wp3dcart_store_url']);
+	    $url .= "&email=" . urlencode($_POST['wp3dcart_user_email']);
+	    $url .= "&phone=" . urlencode($_POST['wp3dcart_user_phone']);
+		//echo $url;
 	    $ch = curl_init($url);
 	    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 	    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 	    curl_setopt($ch, CURLOPT_HEADER, 0);
 	    $data = curl_exec($ch);
+		//print_r($data);
 	    curl_close($ch);
 	    $arrayXML = xml2array($data);
-
-	    if ($arrayXML['Verified'] == 1) {
+//print_r($arrayXML);
+	    if ($arrayXML['Verified'] == 1 || $arrayXML['head']['title'] == "Document Moved" ) {
 		  update_option("wp3dcart_application_registered", true);
+		  header("Location:/wp-admin/plugins.php?page=3dcart-wp-online-store/3dcart.php");
 	    }
 	    else
 		  echo "Sorry, registration failed";
@@ -401,7 +404,7 @@ function wp3dcart_settings_page() {
       <div class="wrap">
             <h2>3dcart Plugin Activation Settings</h2>
 
-            <form method="post" action="?page=3dcart/3dcart.php">
+            <form method="post" action="?page=3dcart-wp-online-store/3dcart.php">
 		  <?php settings_fields('wp3dcart-settings-group'); ?>
 		  <?php do_settings_sections('wp3dcart-settings-group'); ?>
       	    <table class="form-table">
