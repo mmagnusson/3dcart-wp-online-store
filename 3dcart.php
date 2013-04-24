@@ -378,7 +378,7 @@ function wp3dcart_settings_page() {
 	    update_option("wp3dcart_store_url", $_POST['wp3dcart_store_url']);
 	    update_option("wp3dcart_user_email", $_POST['wp3dcart_user_email']);
 	    update_option("wp3dcart_user_phone", $_POST['wp3dcart_user_phone']);
-	    $url = "http://3dcart.com/wordpress-plugin/verify.asp?type=1";
+	    $url = "http://www.3dcart.com/wordpress-plugin/verify.asp?type=1";
 	    $url .= "&siteurl=" . $_POST['siteurl'];
 	    $url .= "&storeurl=" . urldecode($_POST['wp3dcart_store_url']);
 	    $url .= "&email=" . urlencode($_POST['wp3dcart_user_email']);
