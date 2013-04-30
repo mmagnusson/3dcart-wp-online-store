@@ -394,6 +394,7 @@ function wp3dcart_settings_page() {
 	    $arrayXML = xml2array($data);
 //print_r($arrayXML);
 	    if ($arrayXML['Verified'] == 1 || $arrayXML['head']['title'] == "Document Moved" ) {
+                  error_reporting(0);
 		  update_option("wp3dcart_application_registered", true);
 		  header("Location:/wp-admin/plugins.php?page=3dcart-wp-online-store/3dcart.php");
 	    }
